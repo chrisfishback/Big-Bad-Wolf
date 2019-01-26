@@ -10,7 +10,7 @@ import SpriteKit
 
 class GameScene: SKScene {
     
-    
+    var narc = Player()
     
     override func didMove(to view: SKView) {
         print("suck my ass")
@@ -23,7 +23,17 @@ class GameScene: SKScene {
     }
     
     func initialize() {
+        createPlayer()
         createBG()
+    }
+    
+    func createPlayer() {
+        
+        narc = Player(imageNamed: "narc1.jpg")
+        narc.initialize()
+        narc.position = CGPoint(x: -250, y: 20)
+        self.addChild(narc)
+        
     }
     
     func createBG() {
@@ -31,10 +41,10 @@ class GameScene: SKScene {
             let bg = SKSpriteNode(imageNamed: "background")
             bg.name = "background"
             bg.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-            bg.position = CGPoint(x: CGFloat(i) * bg.size.width, y: 0)
-            bg.zPosition = 0
             bg.size.width = 1340
             bg.size.height = 770
+            bg.position = CGPoint(x: CGFloat(i) * bg.size.width, y: 0)
+            bg.zPosition = 0
             self.addChild(bg)
         }
     }
@@ -54,9 +64,14 @@ class GameScene: SKScene {
         enumerateChildNodes(withName: "background", using: ({
             (node, error) in
             
-            //code will be ligma
-            node.position.x -= 4
+            let bgNode = node as! SKSpriteNode
             
+            //code will be ligma
+            bgNode.position.x -= 3
+            
+            if bgNode.position.x < -(self.frame.width) {
+                bgNode.position.x += bgNode.size.width * 3
+            }
         }))
     }
     
