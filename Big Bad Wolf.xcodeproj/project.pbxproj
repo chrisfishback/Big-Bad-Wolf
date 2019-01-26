@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47672D0021FD0F0300028815 /* stranger in Resources */ = {isa = PBXBuildFile; fileRef = 47672CF721FD0F0200028815 /* stranger */; };
-		47672D0121FD0F0300028815 /* moraleIcon in Resources */ = {isa = PBXBuildFile; fileRef = 47672CF821FD0F0200028815 /* moraleIcon */; };
-		47672D0221FD0F0300028815 /* me in Resources */ = {isa = PBXBuildFile; fileRef = 47672CF921FD0F0200028815 /* me */; };
-		47672D0321FD0F0300028815 /* door in Resources */ = {isa = PBXBuildFile; fileRef = 47672CFA21FD0F0200028815 /* door */; };
-		47672D0421FD0F0300028815 /* background in Resources */ = {isa = PBXBuildFile; fileRef = 47672CFB21FD0F0200028815 /* background */; };
-		47672D0521FD0F0300028815 /* moon in Resources */ = {isa = PBXBuildFile; fileRef = 47672CFC21FD0F0200028815 /* moon */; };
-		47672D0621FD0F0300028815 /* dayTimer in Resources */ = {isa = PBXBuildFile; fileRef = 47672CFD21FD0F0200028815 /* dayTimer */; };
-		47672D0721FD0F0300028815 /* fire in Resources */ = {isa = PBXBuildFile; fileRef = 47672CFE21FD0F0200028815 /* fire */; };
-		47672D0821FD0F0300028815 /* pause in Resources */ = {isa = PBXBuildFile; fileRef = 47672CFF21FD0F0200028815 /* pause */; };
 		9D3CD6D621FC3F76001A01B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CD6D521FC3F76001A01B6 /* AppDelegate.swift */; };
 		9D3CD6D821FC3F76001A01B6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CD6D721FC3F76001A01B6 /* GameScene.sks */; };
 		9D3CD6DA21FC3F76001A01B6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CD6D921FC3F76001A01B6 /* Actions.sks */; };
@@ -56,15 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		47672CF721FD0F0200028815 /* stranger */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stranger; sourceTree = "<group>"; };
-		47672CF821FD0F0200028815 /* moraleIcon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = moraleIcon; sourceTree = "<group>"; };
-		47672CF921FD0F0200028815 /* me */ = {isa = PBXFileReference; lastKnownFileType = folder; path = me; sourceTree = "<group>"; };
-		47672CFA21FD0F0200028815 /* door */ = {isa = PBXFileReference; lastKnownFileType = folder; path = door; sourceTree = "<group>"; };
-		47672CFB21FD0F0200028815 /* background */ = {isa = PBXFileReference; lastKnownFileType = folder; path = background; sourceTree = "<group>"; };
-		47672CFC21FD0F0200028815 /* moon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = moon; sourceTree = "<group>"; };
-		47672CFD21FD0F0200028815 /* dayTimer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dayTimer; sourceTree = "<group>"; };
-		47672CFE21FD0F0200028815 /* fire */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fire; sourceTree = "<group>"; };
-		47672CFF21FD0F0200028815 /* pause */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pause; sourceTree = "<group>"; };
 		9D3CD6D221FC3F76001A01B6 /* Big Bad Wolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Big Bad Wolf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3CD6D521FC3F76001A01B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D3CD6D721FC3F76001A01B6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -118,22 +100,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		47672CF621FCF21000028815 /* JacobStuff */ = {
-			isa = PBXGroup;
-			children = (
-				47672CFB21FD0F0200028815 /* background */,
-				47672CFD21FD0F0200028815 /* dayTimer */,
-				47672CFA21FD0F0200028815 /* door */,
-				47672CFE21FD0F0200028815 /* fire */,
-				47672CF921FD0F0200028815 /* me */,
-				47672CFC21FD0F0200028815 /* moon */,
-				47672CF821FD0F0200028815 /* moraleIcon */,
-				47672CFF21FD0F0200028815 /* pause */,
-				47672CF721FD0F0200028815 /* stranger */,
-			);
-			path = JacobStuff;
-			sourceTree = "<group>";
-		};
 		9D3CD6C921FC3F76001A01B6 = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +158,6 @@
 		9D3CD70921FC3F87001A01B6 /* Ass-ets */ = {
 			isa = PBXGroup;
 			children = (
-				47672CF621FCF21000028815 /* JacobStuff */,
 				9D3CD70A21FC3F98001A01B6 /* RA */,
 			);
 			path = "Ass-ets";
@@ -325,27 +290,18 @@
 				9D3CD6E121FC3F76001A01B6 /* Main.storyboard in Resources */,
 				9D3CD71721FC3FB0001A01B6 /* animate-run-slide-33.jpg in Resources */,
 				9D3CD71B21FC3FB0001A01B6 /* animate-run-slide-34.jpg in Resources */,
-				47672D0821FD0F0300028815 /* pause in Resources */,
 				9D3CD6D821FC3F76001A01B6 /* GameScene.sks in Resources */,
 				9D3CD6E321FC3F76001A01B6 /* Assets.xcassets in Resources */,
 				9D3CD6E621FC3F76001A01B6 /* LaunchScreen.storyboard in Resources */,
-				47672D0221FD0F0300028815 /* me in Resources */,
 				9D3CD6DA21FC3F76001A01B6 /* Actions.sks in Resources */,
-				47672D0521FD0F0300028815 /* moon in Resources */,
-				47672D0321FD0F0300028815 /* door in Resources */,
 				9D3CD71621FC3FB0001A01B6 /* animate-run-slide-29.jpg in Resources */,
-				47672D0621FD0F0300028815 /* dayTimer in Resources */,
 				9D3CD71E21FC3FB0001A01B6 /* animate-run-slide-37.jpg in Resources */,
 				9D3CD71521FC3FB0001A01B6 /* animate-run-slide-26.jpg in Resources */,
 				9D3CD71D21FC3FB0001A01B6 /* animate-run-slide-28.jpg in Resources */,
 				9D3CD71921FC3FB0001A01B6 /* animate-run-slide-32.jpg in Resources */,
-				47672D0421FD0F0300028815 /* background in Resources */,
 				9D3CD71821FC3FB0001A01B6 /* animate-run-slide-31.jpg in Resources */,
 				9D3CD71C21FC3FB0001A01B6 /* animate-run-slide-27.jpg in Resources */,
-				47672D0021FD0F0300028815 /* stranger in Resources */,
-				47672D0721FD0F0300028815 /* fire in Resources */,
 				9D3CD71A21FC3FB0001A01B6 /* animate-run-slide-35.jpg in Resources */,
-				47672D0121FD0F0300028815 /* moraleIcon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
